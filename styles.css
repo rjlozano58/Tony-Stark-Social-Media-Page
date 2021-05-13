@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    background: maroon;
+    color: white;
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 50px;
+}
+
+.navbar {
+    Background: maroon;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.navlinks {
+    color: white;
+    text-decoration: none;
+    border: 2px solid white;
+    padding: 5px;
+    transition: 0.3s;
+    font-family: 'Inter';
+    font-weight: 800;
+
+}
+
+.navlinks:hover {
+    color: black;
+    background: white;
+}
+
+.posts {
+    background: #f5ad31;
+    height: auto;
+    padding: 5px 0;
+    width: 70%;
+    display: block;
+    margin: 10px 0;
+
+}
+
+.personalinfo {
+    background: maroon;
+    color: white;
+    margin: 10px auto;
+    width: 80%;
+    height: auto;
+    font-size: 20px;
+    font-family: 'Inter';
+    font-weight: 300;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.personalinfo:hover {
+    background: white;
+    color: black;
+}
+
+.list {
+    width: 40%;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+img {
+    width: 70%;
+    margin: 5px auto;
+    transition: 0.3s;
+}
+
+img:hover {
+    box-shadow: 2px 2px 10px black;
+}
+
+.friends:hover .subtitles {
+    color: #68186b;
+    text-shadow: 1px 1px 1px black;
+
+}
+
+.friends:hover .list {
+    color: maroon;
+}
+
+.suits:hover .subtitles {
+    color: #f5ad31;
+    text-shadow: 1px 1px 1px black;
+}
+
+.hobbies:hover .subtitles {
+    text-shadow: 1px 1px 1px black;
+    color: #67c7eb;
+}
+
+.hobbies:hover {
+    color: maroon;
+}
+
+.subtitles {
+    transition: 0.3s;
+}
+
+.suitnames {
+    color: white;
+    text-decoration: none;
+}
+
+.suits:hover .suitnames {
+    color: maroon;
+}
+
+.martialarts {
+    text-decoration: none;
+    color: white;
+}
+
+.hobbies:hover .martialarts {
+    color: violet;
+    /*#67c7eb*/
+    font-weight: 700;
+    text-shadow: 1px 1px 1px black;
+}
+
+.leftcolumn {
+    background: maroon;
+    color: white;
+    font-family: 'inter';
+    height: auto;
+    width: 15%;
+    margin: 10px;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.leftcolumn:hover {
+    background: white;
+    box-shadow: 2px 2px 8px black;
+    color: maroon;
+}
+
+.rightcolumn {
+    background: maroon;
+    color: white;
+    font-family: 'inter';
+    height: auto;
+    width: 15%;
+    margin: 10px;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.rightcolumn:hover {
+    background: white;
+    box-shadow: 2px 2px 8px black;
+    color: maroon;
+}
+
+.webcontent {
+    display: flex;
+}
+
+.rdjphoto {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    transition: 0.3s;
+}
+
+.rdjphoto:hover {
+    box-shadow: 2px 2px 10px black;
+}
+
+input {
+    width: 100%;
+    display: block;
+    margin: 10px auto;
+    border: 2px solid black;
+}
+
+button {
+    background: white;
+    border: 2px solid maroon;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 5px 10px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: black;
+    color: white;
+}
